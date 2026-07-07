@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QRify
 
-## Getting Started
+A modern, fast, and customizable QR Code Generator built with **Next.js 16**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+Generate beautiful QR codes for websites, text, emails, phone numbers, WiFi, SMS, contacts, and more—all completely free.
+
+---
+
+## ✨ Features
+
+- 🌐 URL QR Code
+- 📝 Text QR Code
+- 📧 Email QR Code
+- 📞 Phone QR Code
+- 💬 SMS QR Code
+- 📶 WiFi QR Code
+- 👤 vCard QR Code
+
+### QR Customization
+
+- 🎨 Foreground Color
+- 🎨 Background Color
+- 📏 QR Size Control
+- 🖼 Logo Upload
+- ⚡ Live QR Preview
+- 📥 Download as PNG
+- 📥 Download as SVG
+
+---
+
+## 🚀 Tech Stack
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- qr-code-styling
+- Lucide React
+
+---
+
+## 📸 Preview
+
+> Screenshots coming soon.
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Bipin005/QRify.git
+```
+
+Move into the project
+
+```bash
+cd QRify
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🏗 Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Production Preview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+app/
+components/
+hooks/
+lib/
+public/
+data/
+```
+
+---
+
+## 🎯 Roadmap
+
+### Completed
+
+- [x] URL QR Generator
+- [x] Text QR Generator
+- [x] Email QR Generator
+- [x] Phone QR Generator
+- [x] SMS QR Generator
+- [x] WiFi QR Generator
+- [x] vCard QR Generator
+- [x] Live Preview
+- [x] Logo Upload
+- [x] PNG Download
+- [x] SVG Download
+- [x] Responsive Design
+
+### Coming Soon
+
+- [ ] Social Media QR
+- [ ] Dynamic QR Codes
+- [ ] Scan Analytics
+- [ ] QR Templates
+- [ ] QR History
+- [ ] User Accounts
+- [ ] API Access
+- [ ] Batch QR Generation
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Bipin Yadav**
+
+GitHub:
+https://github.com/Bipin005
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+It helps support future development.
